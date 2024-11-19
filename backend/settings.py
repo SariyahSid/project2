@@ -51,6 +51,7 @@ class _UiSettings(BaseSettings):
     show_chat_history_button: bool = True
 
 
+
 class _ChatHistorySettings(BaseSettings):
     model_config = SettingsConfigDict(
         env_prefix="AZURE_COSMOSDB_",
